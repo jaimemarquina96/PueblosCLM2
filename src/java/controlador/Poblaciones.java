@@ -57,6 +57,7 @@ public class Poblaciones extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
+        //asodpsa
        ArrayList<String> pueblos = Utilidades.getPoblaciones(rutaFicheros.concat(File.separator).concat("Albacete.txt"));
        request.setAttribute("provincias", provincias);
        request.setAttribute("provincia", "Albacete");
